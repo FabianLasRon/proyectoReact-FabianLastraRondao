@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import logo from "../../assets/logo.png"
 import "./NavBar.css"
+import CartWidget from"../CartWidget/CartWidget.js"
 
 const NavBar=()=>{
     return(
@@ -11,9 +12,13 @@ const NavBar=()=>{
                 <a href="">Categoria 1</a>
                 <a href="">Categoria 2</a>
                 <a href="">Categoria 3</a>
+                <CartWidget/>
             </nav>
+            
         </header>
     )
 }
+
+
 
 export default NavBar;
