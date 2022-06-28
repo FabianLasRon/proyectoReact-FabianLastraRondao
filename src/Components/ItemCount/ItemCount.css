@@ -1,0 +1,15 @@
+.contador{
+    background-color: red;
+    display: flex;
+    width: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 180px;
+    border: solid black 1px;
+}
+
+.buttonBuy{
+    width: 100%;
+    font-size: 20px;
+}
+
