@@ -1,3 +1,4 @@
+import { ProductionQuantityLimitsSharp } from "@mui/icons-material";
 import React from "react";
 import ItemCount from '../ItemCount/ItemCount.js';
 
@@ -12,6 +13,9 @@ const ItemListContainer =(props)=>{
         <>
         <h1>{props.catalogo}</h1>
         <ItemCount onAdd={onAdd}/>
+        <>
+        
+        </>
         </>
     )
 }
